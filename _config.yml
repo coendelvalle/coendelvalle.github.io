@@ -277,13 +277,6 @@ defaults:
       author_profile: true
       share: true
 
-  - scope:
-      path: ""
-      type: sporadicscode
-    values:
-      layout: sporadicscode
-      author_profile: true
-      share: true
 
 
 # Sass/SCSS
