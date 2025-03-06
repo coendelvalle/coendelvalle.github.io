@@ -1,6 +1,6 @@
-#Function to compute Qhat(G,H), takes as input character tables t1 of group H and t of G.
-Q := function(t1, t)
-    local f, S, O, P, a, i, c, z, tt, k;
+#Function to compute Qhat(G,c), takes as input character tables t1 of stabiliser H and t of G and an integer c.
+Q := function(t1, t,c)
+    local f, S, O, P, a, i, cc, z, tt, k;
     
     f := FusionConjugacyClasses(t1, t);;
     S := SizesConjugacyClasses(t);;
@@ -18,15 +18,15 @@ Q := function(t1, t)
     
     for i in P do
         a := S[i];
-        c := 0;
+        cc := 0;
         
         for k in [1..Size(f)] do
             if f[k] = i then
-                c := c + tt[k];
+                cc := cc + tt[k];
             fi;
         od;
         
-        z := z + 1.0 * a * (c / a)^4;
+        z := z + 1.0 * a * (cc / a)^c;
     od;
     
     return z;
@@ -34,5 +34,5 @@ end;
 
 #Function to compute D(G,H), takes as input character tables t1 of H and t of G.
 D := function(t1, t)
-    return (Size(t) / Size(t1)) * (1 - (1 - Q(t1, t))^(1/2));
+    return (Size(t) / Size(t1)) * (1 - (1 - Q(t1, t,3))^(1/2));
 end;
