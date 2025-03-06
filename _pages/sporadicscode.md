@@ -1,5 +1,5 @@
 ---
-title: "Sporadics Code"
+title: "Sporadics code"
 permalink: /sporadicscode/
 author_profile: true
 ---
