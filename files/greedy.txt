@@ -1,0 +1,19 @@
+// Function to perform greedy algorithm and return G(G). Initialise with level:=1.
+function Greedy(G, level)
+    o:=Orbits(G);
+    if Order(G) gt #o[#o] then
+        orbs := [x : x in o | #x eq #o[#o]];
+        level := level + 1;
+        H:=G;
+    maxLevel := level;
+    for o in orbs do
+        newLevel := Greedy(Stabiliser(H, o[1]), level);
+        if newLevel gt maxLevel then
+            maxLevel := newLevel;
+        end if;
+    end for;
+    level:= maxLevel;
+    end if;
+    level;
+    return level;
+end function;
