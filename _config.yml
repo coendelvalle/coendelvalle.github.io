@@ -25,11 +25,11 @@ author:
   avatar           : "profile.png"
   name             : "Coen del Valle "
   pronouns         : "he/him"  
-  bio              : "PhD Student"
+  bio              : "Postdoc"
   location         : "United Kingdom"
-  employer         : "University of St Andrews"
+  employer         : "The Open University"
   uri              : # URL
-  email            : "cdv1@st-andrews.ac.uk" 
+  email            : "coen.del-valle@open.ac.uk" 
 
   # Academic websites
   googlescholar    : "https://scholar.google.com/citations?user=SlDIn9gAAAAJ&hl=en"
