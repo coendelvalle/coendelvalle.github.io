@@ -5,8 +5,16 @@ permalink: /teaching/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+  .teaching { padding-left: 1.2em; }
+  .teaching li { margin-bottom: 0.9em; }
+</style>
 
-{% for post in site.teaching reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<ul class="teaching">
+  {% for item in site.data.teaching %}
+  <li>
+    {% if item.url %}<a href="{{ item.url }}"><strong>{{ item.course }}</strong></a>{% else %}<strong>{{ item.course }}</strong>{% endif %}<br>
+    {{ item.role }}, {{ item.place }}, {{ item.years }}.
+  </li>
+  {% endfor %}
+</ul>
