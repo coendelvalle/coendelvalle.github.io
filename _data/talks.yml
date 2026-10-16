@@ -1,0 +1,125 @@
+# Talks list, rendered by _pages/talks.html.
+# Each talk's title links to url if one is given; url can be left out.
+
+- section: Invited talks
+  talks:
+    - title: "On the binary actions of finite simple groups"
+      event: "Modern Flavours of Finite Groups"
+      place: "University of Warwick, UK"
+      year: 2026
+      url: "https://warwick.ac.uk/fac/sci/maths/research/events/2025-2026/modern-flavours-finite-groups"
+
+    - title: "The binary actions of sporadic groups"
+      event: "Groups and Combinatorics Seminar"
+      place: "University of Western Australia, Australia"
+      year: 2026
+
+    - title: "The binary actions of sporadic groups"
+      event: "Discrete Mathematics Seminar"
+      place: "Monash University, Australia"
+      year: 2026
+
+    - title: "Bases in unexpected places"
+      event: "Heilbronn Algebra Seminar"
+      place: "University of Manchester, UK"
+      year: 2026
+
+    - title: "Bases in unexpected places"
+      event: "Mathematics Seminar"
+      place: "Royal Holloway University of London, UK"
+      year: 2026
+
+    - title: "Base sizes and representation theory"
+      event: "London Algebra Colloquium"
+      place: "Imperial College London, UK"
+      year: 2025
+
+    - title: "The binary actions of sporadic groups"
+      event: "Orbit – meetings on groups and representations"
+      place: "University of Birmingham, UK"
+      year: 2025
+
+    - title: "The binary actions of sporadic groups"
+      event: "Combinatorics Seminar"
+      place: "University of Bristol, UK"
+      year: 2025
+      url: "https://www.bristolmathsresearch.org/seminar/coen-del-valle/"
+
+    - title: "Bases in unexpected places"
+      event: "Mathematics Colloquium"
+      place: "The Open University, UK"
+      year: 2025
+
+    - title: "Cameron's Greedy Conjecture"
+      event: "Conference on Theoretical and Computational Algebra 2025"
+      place: "University of Évora, Portugal"
+      year: 2025
+      url: "https://www.tca2025.uevora.pt/"
+
+    - title: "Greedy bases for primitive groups"
+      event: "Finite Groups, Fusion Systems and Applications"
+      place: "Mathematisches Forschungsinstitut Oberwolfach, Germany"
+      year: 2025
+      url: "https://doi.org/10.4171/OWR/2025/16"
+
+    - title: "It's (probably) okay to be greedy"
+      event: "Algebra Seminar"
+      place: "University of Warwick, UK"
+      year: 2025
+
+    - title: "The base size of the symmetric group and an unexpected connection"
+      event: "Junior London Algebra Colloquium"
+      place: "Imperial College London, UK"
+      year: 2024
+
+    - title: "The base size of the symmetric group"
+      event: "Seminars on Groups and Graphs"
+      place: "Southern University of Science and Technology, China"
+      year: 2024
+
+    - title: "Block designs of dimension three"
+      event: "2020 Canadian Mathematical Society Winter Meeting, Combinatorial Designs session"
+      place: "Canada"
+      year: 2020
+      url: "https://www2.cms.math.ca/Events/winter20/abs/pdf/cd-cdv.pdf"
+
+- section: Contributed talks
+  talks:
+    - title: "A character theoretic formula for base size"
+      event: "Algebra and Combinatorics Seminar"
+      place: "University of St Andrews, UK"
+      year: 2025
+
+    - title: "Greedy base sizes for sporadic simple groups"
+      event: "Centre for Interdisciplinary Research in Computational Algebra (CIRCA) Seminar"
+      place: "University of St Andrews, UK"
+      year: 2024
+      url: "https://circa.st-andrews.ac.uk/2024/10/30/circa-seminar-31st-october"
+
+    - title: "Greedy bases for primitive groups"
+      event: "Topics in Group Theory – on the occasion of Andrea Lucchini's 60th(+) birthday"
+      place: "University of Padova, Italy"
+      year: 2024
+      url: "https://events.math.unipd.it/tgt"
+
+    - title: "It's not always bad to be greedy"
+      event: "CIRCA Seminar"
+      place: "University of St Andrews, UK"
+      year: 2024
+
+    - title: "The base size of primitive actions of the symmetric group"
+      event: "CIRCA Seminar"
+      place: "University of St Andrews, UK"
+      year: 2023
+
+    - title: "A complete existence theory for signed graph designs"
+      event: "Discrete Math Seminar"
+      place: "University of Victoria, Canada"
+      year: 2021
+
+- section: Panel discussions
+  talks:
+    - title: "How to make an irritating Sudoku puzzle"
+      event: "Ideafest"
+      place: "University of Victoria, Canada"
+      year: 2020
