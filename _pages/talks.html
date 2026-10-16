@@ -5,12 +5,19 @@ permalink: /talks/
 author_profile: true
 ---
 
-{% if site.talkmap_link == true %}
+<style>
+  .talks { padding-left: 1.2em; }
+  .talks li { margin-bottom: 0.9em; }
+</style>
 
-<p style="text-decoration:underline;"><a href="/talkmap.html">See a map of all the places I've given a talk!</a></p>
-
-{% endif %}
-
-{% for post in site.talks reversed %}
-  {% include archive-single-talk.html %}
+{% for section in site.data.talks %}
+<h2>{{ section.section }}</h2>
+<ul class="talks">
+  {% for talk in section.talks %}
+  <li>
+    {% if talk.url %}<a href="{{ talk.url }}"><strong>{{ talk.title }}</strong></a>{% else %}<strong>{{ talk.title }}</strong>{% endif %}<br>
+    {{ talk.event }}, {{ talk.place }}, {{ talk.year }}.
+  </li>
+  {% endfor %}
+</ul>
 {% endfor %}
