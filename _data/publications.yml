@@ -91,6 +91,14 @@
 
 - section: Submitted articles
   papers:
+    - title: "On the maximum relational complexity of affine groups"
+      authors: "C. del Valle, N. Gill, P. Spiga"
+      arxiv: "2610.20077"
+
+    - title: "The binary actions of the sporadic simple groups"
+      authors: "C. del Valle, N. Gill"
+      arxiv: "2609.02508"
+      
     - title: "Constructing linear codes from digraphs and groups"
       authors: "C. del Valle, C.E. Praeger"
       arxiv: "2607.28016"
@@ -105,11 +113,6 @@
 
 - section: In preparation
   papers:
-    - title: "On the maximum relational complexity of affine groups"
-      authors: "C. del Valle, N. Gill, P. Spiga"
 
     - title: "The binary actions of low rank groups of Lie type"
       authors: "C. del Valle, N. Gill, M.W. Liebeck"
-
-    - title: "The binary actions of the sporadic simple groups"
-      authors: "C. del Valle, N. Gill"
