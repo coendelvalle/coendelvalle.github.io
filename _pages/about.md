@@ -14,5 +14,3 @@ I earned my PhD from the University of St Andrews in 2025 supervised by Professo
 On this webpage you will be able to find all of my publications, talks, and CV, among other things; just click the corresponding tab on the top!
 
 Outside of my academic life, I train and compete in the niche Olympic sport ["sprint kayaking"](https://en.wikipedia.org/wiki/Sprint_kayak). I also enjoy hikes and feeding ducks and other waterfowl!
-
-This site is currently (and likely will indefinitely be) under construction.
