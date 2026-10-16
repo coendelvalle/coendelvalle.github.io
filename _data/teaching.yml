@@ -1,0 +1,28 @@
+# Teaching list, rendered by _pages/teaching.html.
+# Each course name links to url if one is given; url can be left out.
+
+- course: "MT2505 Abstract Algebra"
+  role: "Tutor (tutorials)"
+  place: "University of St Andrews, UK"
+  years: "2023–2024"
+
+- course: "MT2504 Combinatorics and Probability"
+  role: "Tutor (tutorials and examples classes)"
+  place: "University of St Andrews, UK"
+  years: "2022–2024"
+
+- course: "Mathematics and Statistics Assistance Centre"
+  role: "Indigenous student support tutor"
+  place: "University of Victoria, Canada"
+  years: "2020–2021"
+  url: "https://www.uvic.ca/msac"
+
+- course: "Math 100 Calculus I"
+  role: "Tutor (tutorials)"
+  place: "University of Victoria, Canada"
+  years: "2021"
+
+- course: "Math 211 Linear Algebra"
+  role: "Tutor (tutorials)"
+  place: "University of Victoria, Canada"
+  years: "2020"
